@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "文字轉wav"
+version = "0.1.0"
+description = ""
+authors = ["Koesi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gtts = "^2.5.1"
+audiosegment = "^0.23.0"
+pandas = "^2.2.2"
+speechrecognition = "^3.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
